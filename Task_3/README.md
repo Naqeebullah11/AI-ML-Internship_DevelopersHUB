@@ -50,7 +50,7 @@ Train-test split (80% training, 20% testing)
 
 # 📈 Output
 The script will print:
- 
-# ✅ Model Evaluation:
+
+✅ Model Evaluation:
 MAE: <value>
 RMSE: <value>
