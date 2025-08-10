@@ -7,19 +7,19 @@ This project uses **Linear Regression** to predict house prices based on various
 
 The dataset is loaded from **Housing.csv** and should contain columns such as:
 
-- `price` (Target variable)
-- `area`
-- `bedrooms`
-- `bathrooms`
-- `stories`
-- `mainroad`
-- `guestroom`
-- `basement`
-- `hotwaterheating`
-- `airconditioning`
-- `parking`
-- `prefarea`
-- `furnishingstatus`
+- price (Target variable)
+- area
+- bedrooms
+- bathrooms
+- stories
+- mainroad
+- guestroom
+- basement
+- hotwaterheating
+- airconditioning
+- parking
+- prefarea
+- furnishingstatus
 
 # ⚙️ Installation
 Make sure you have Python 3.7+ installed.  
