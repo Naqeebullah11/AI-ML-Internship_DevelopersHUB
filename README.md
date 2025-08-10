@@ -1,37 +1,28 @@
-# Iris Dataset — Exploratory Data Analysis
+# 📊 Data Analysis & Prediction Projects
+This repo contains three Python projects:
 
-# Overview
-
-This script conducts a brief exploratory data analysis (EDA) of the classic **Iris dataset** using Python.
-It includes data inspection, statistical summaries, and visualizations to explore feature relationships and distributions.
-
-# Requirements
-
-Ensure the following Python packages are installed:
-
-pip install pandas seaborn matplotlib
-
-# Analysis Workflow
-
-1. Data Loading — Load the Iris dataset via Seaborn.
-2. Data Inspection — Display shape, column names, sample records, dataset information, and summary statistics.
-3. Visualizations:
-
-   * Scatter Plot: Sepal length vs. sepal width, differentiated by species.
-   * Histograms: Distribution of numerical features.
-   * Boxplots: Summary of feature distributions with outlier detection.
-
-# Execution
-
-Run the script from the command line:
+# 1️⃣ Iris Dataset – EDA
+Goal: Explore the Iris dataset with summary stats & visualizations.
+Libs: pandas, seaborn, matplotlib
+Run:
 
 python iris_analysis.py
 
-The visualizations will be displayed in pop-up windows.
+# 2️⃣ Apple Stock Price Prediction
+Goal: Predict AAPL next-day closing prices (2022–2024) using Linear Regression.
+Libs: pandas, scikit-learn, matplotlib, yfinance
+Steps: Fetch data → prepare features → train/test split (80/20, no shuffle) → evaluate (MSE, R²) → plot.
+Run:
 
-# References
+python apple_stock_prediction.py
 
-* [Seaborn Documentation](https://seaborn.pydata.org/)
-* [Matplotlib Documentation](https://matplotlib.org/)
-* [Pandas Documentation](https://pandas.pydata.org/)
+# 3️⃣ Housing Price Prediction
+Goal: Predict house prices from features in Housing.csv.
+Libs: pandas, scikit-learn, matplotlib, numpy
+Steps: One-hot encode → train/test split → Linear Regression → evaluate (MAE, RMSE) → plot.
+Run:
 
+
+python housing_price_prediction.py
+# References: 
+Seaborn, Matplotlib, Pandas, scikit-learn, Yahoo Finance API
