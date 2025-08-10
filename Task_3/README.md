@@ -34,23 +34,23 @@ Run the Python script:
 
 python housing_price_prediction.py
 #📊 Model Details
-Model: Linear Regression (sklearn.linear_model)
+# Model: Linear Regression (sklearn.linear_model)
 
-#Evaluation Metrics:
+# Evaluation Metrics:
 
 MAE (Mean Absolute Error)
 
 RMSE (Root Mean Squared Error)
 
-#Preprocessing:
+# Preprocessing:
 
 One-hot encoding for categorical variables
 
 Train-test split (80% training, 20% testing)
 
-#📈 Output
+# 📈 Output
 The script will print:
-
-#✅ Model Evaluation:
+ 
+# ✅ Model Evaluation:
 MAE: <value>
 RMSE: <value>
